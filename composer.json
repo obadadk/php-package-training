@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "obadadk/php-package-training",
+    "description": "This is my package php-package-training",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "obadadk",
+        "php-package-training"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/obadadk/php-package-training",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abu Sarya",
+            "email": "abukarmo194@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Obadadk\\PhpPackageTraining\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Obadadk\\PhpPackageTraining\\Tests\\": "tests"
         }
     },
     "scripts": {
